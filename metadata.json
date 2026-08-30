@@ -1,0 +1,6 @@
+{
+  "name": "AutoTrackerSync",
+  "description": "Vehicle maintenance tracker integrated with Google Sheets, Drive, Gmail, and Calendar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
