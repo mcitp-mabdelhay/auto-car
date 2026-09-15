@@ -10,7 +10,7 @@ import {
   Image,
 } from 'react-native';
 import { useApp } from '../context/AppContext';
-import { Car, Globe, Sun, Moon, AlertCircle, LogIn } from 'lucide-react-native';
+import { Car, Globe, Sun, Moon, AlertCircle, LogIn } from '../components/Icons';
 
 export const AuthScreen: React.FC = () => {
   const { strings, isRTL, theme, toggleTheme, toggleLang, login } = useApp();

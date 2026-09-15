@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import { addMaintenanceRecord, updateCurrentMileage } from '../lib/parser';
 import { useApp } from '../context/AppContext';
-import { Fuel, Wrench, X, Check } from 'lucide-react-native';
+import { Fuel, Wrench, X, Check } from './Icons';
 
 interface Props {
   visible: boolean;

@@ -18,7 +18,7 @@ import { addMaintenanceRecord } from '../lib/parser';
 import { uploadReceipt } from '../lib/googleApi';
 import { useApp } from '../context/AppContext';
 import * as ImagePicker from 'expo-image-picker';
-import { X, Check, Camera, Image as ImageIcon, Paperclip, Loader2 } from 'lucide-react-native';
+import { X, Check, Camera, ImageIcon, Paperclip, Loader2 } from './Icons';
 
 interface Props {
   visible: boolean;

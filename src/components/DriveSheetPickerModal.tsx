@@ -13,7 +13,7 @@ import {
 import { GoogleDriveFile } from '../types';
 import { listSpreadsheets } from '../lib/googleApi';
 import { useApp } from '../context/AppContext';
-import { FileSpreadsheet, Search, X, RefreshCw } from 'lucide-react-native';
+import { FileSpreadsheet, Search, X, RefreshCw } from './Icons';
 
 interface Props {
   visible: boolean;

@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, StyleSheet, ActivityIndicator, Alert } fr
 import { MaintenanceRecord } from '../types';
 import { useApp } from '../context/AppContext';
 import { createCalendarEvent, sendEmail } from '../lib/googleApi';
-import { Bell, Calendar, Mail, Check, AlertTriangle, CheckCircle2, Clock } from 'lucide-react-native';
+import { Bell, Calendar, Mail, Check, AlertTriangle, CheckCircle2, Clock } from './Icons';
 
 interface Props {
   upcomingMaintenance: MaintenanceRecord[];

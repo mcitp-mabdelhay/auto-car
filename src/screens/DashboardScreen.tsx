@@ -43,7 +43,7 @@ import {
   ChevronDown,
   ChevronLeft,
   RefreshCw,
-} from 'lucide-react-native';
+} from '../components/Icons';
 
 export const DashboardScreen: React.FC = () => {
   const { spreadsheetId, user, strings, isRTL, theme } = useApp();

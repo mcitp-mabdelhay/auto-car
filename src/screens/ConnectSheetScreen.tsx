@@ -12,7 +12,7 @@ import { useApp } from '../context/AppContext';
 import { createSpreadsheet } from '../lib/googleApi';
 import { initializeSheet } from '../lib/parser';
 import { DriveSheetPickerModal } from '../components/DriveSheetPickerModal';
-import { Plus, FolderSearch, Globe, Sun, Moon, LogOut, Sparkles } from 'lucide-react-native';
+import { Plus, FolderSearch, Globe, Sun, Moon, LogOut, Sparkles } from '../components/Icons';
 
 export const ConnectSheetScreen: React.FC = () => {
   const { strings, isRTL, theme, toggleTheme, toggleLang, updateSpreadsheetId, logout } = useApp();

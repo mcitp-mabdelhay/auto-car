@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Linking, Alert } from 'react-native';
 import { MaintenanceRecord } from '../types';
 import { useApp } from '../context/AppContext';
-import { Edit2, ExternalLink, Paperclip } from 'lucide-react-native';
+import { Edit2, ExternalLink, Paperclip } from './Icons';
 
 interface Props {
   record: MaintenanceRecord;

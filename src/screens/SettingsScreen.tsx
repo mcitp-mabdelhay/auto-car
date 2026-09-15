@@ -21,8 +21,8 @@ import {
   LogOut,
   Unlink,
   User,
-  Settings as SettingsIcon,
-} from 'lucide-react-native';
+  SettingsIcon,
+} from '../components/Icons';
 
 export const SettingsScreen: React.FC = () => {
   const {

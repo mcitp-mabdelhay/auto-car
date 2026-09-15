@@ -17,13 +17,13 @@ import { DashboardScreen } from './screens/DashboardScreen';
 import { SettingsScreen } from './screens/SettingsScreen';
 import {
   Car,
-  Settings as SettingsIcon,
+  SettingsIcon,
   LogOut,
   Globe,
   Sun,
   Moon,
   ExternalLink,
-} from 'lucide-react-native';
+} from './components/Icons';
 
 const MainNavigator: React.FC = () => {
   const {
