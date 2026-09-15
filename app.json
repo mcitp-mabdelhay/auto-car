@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "AutoTracker",
+    "slug": "autotracker",
+    "scheme": "com.googleusercontent.apps.867501694584-oe8lrngvfils3a2mbsi130btl1u0qkt9",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#059669"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.autotracker.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#059669"
+      },
+      "package": "com.autotracker.app",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you attach maintenance receipts."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a3a76090-2a85-4c8f-8ae4-93176ef160c4"
+      }
+    }
+  }
+}

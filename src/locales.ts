@@ -1,4 +1,4 @@
-export type Language = 'ar' | 'en';
+import { Language } from './types';
 
 export const t = {
   ar: {
@@ -57,7 +57,23 @@ export const t = {
     sendReminderEmail: 'إرسال بريد تذكير',
     emailSent: 'تم الإرسال',
     noReminders: 'لا توجد تنبيهات حالياً',
-    remindersDesc: 'إدارة تنبيهات الصيانة والمواعيد'
+    remindersDesc: 'إدارة تنبيهات الصيانة والمواعيد',
+    selectSpreadsheet: 'اختر جدول البيانات من Drive',
+    searchSpreadsheets: 'بحث عن ملف...',
+    noSpreadsheetsFound: 'لم يتم العثور على جداول بيانات Google Sheets',
+    uploadReceipt: 'إرفاق إيصال / فاتورة',
+    receiptAttached: 'تم إرفاق الإيصال',
+    uploadingReceipt: 'جاري رفع الإيصال إلى Drive...',
+    disconnectSheet: 'إلغاء ربط الملف',
+    theme: 'المظهر',
+    lightMode: 'فاتح',
+    darkMode: 'داكن',
+    cancel: 'إلغاء',
+    save: 'حفظ',
+    loading: 'جاري التحميل...',
+    errorLoadingData: 'حدث خطأ أثناء تحميل البيانات',
+    retry: 'إعادة المحاولة',
+    viewReceipt: 'عرض الإيصال'
   },
   en: {
     appTitle: 'Vehicle Maintenance Tracker',
@@ -115,6 +131,22 @@ export const t = {
     sendReminderEmail: 'Send Email Reminder',
     emailSent: 'Sent',
     noReminders: 'No active reminders',
-    remindersDesc: 'Manage your upcoming and overdue maintenance alerts'
+    remindersDesc: 'Manage your upcoming and overdue maintenance alerts',
+    selectSpreadsheet: 'Select Spreadsheet from Drive',
+    searchSpreadsheets: 'Search spreadsheets...',
+    noSpreadsheetsFound: 'No Google Spreadsheets found',
+    uploadReceipt: 'Attach Receipt / Invoice',
+    receiptAttached: 'Receipt Attached',
+    uploadingReceipt: 'Uploading receipt to Drive...',
+    disconnectSheet: 'Disconnect Sheet',
+    theme: 'Theme',
+    lightMode: 'Light',
+    darkMode: 'Dark',
+    cancel: 'Cancel',
+    save: 'Save',
+    loading: 'Loading...',
+    errorLoadingData: 'Error Loading Data',
+    retry: 'Retry',
+    viewReceipt: 'View Receipt'
   }
 };

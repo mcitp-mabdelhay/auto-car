@@ -1,7 +1,7 @@
 import { getSheetValues, updateSheetValues, appendSheetValues } from './googleApi';
 import { MaintenanceRecord, Vehicle } from '../types';
 
-// CSV structure given by user:
+// CSV structure:
 // Row 0: عداد الكيلو الحالي,95500,,,
 // Row 1: اسم الصيانة,العداد عند الصيانة,أدنى عداد للتغيير,أقصى عداد للتغيير,أخر تاريخ صيانة,التكلفة,رابط الإيصال
 
@@ -120,7 +120,7 @@ export async function updateCurrentMileage(spreadsheetId: string, sheetName: str
   }
 
   if (rowIndex !== -1) {
-    await updateSheetValues(spreadsheetId, `${sheetName}!B${rowIndex}`, [[mileage]]);
+    await updateSheetValues(spreadsheetId, `${sheetName}!B${rowIndex}`, [[mileage.toString()]]);
   }
 }
 

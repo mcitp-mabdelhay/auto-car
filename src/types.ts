@@ -1,3 +1,6 @@
+export type Language = 'ar' | 'en';
+export type ThemeMode = 'light' | 'dark';
+
 export interface Vehicle {
   id: string;
   name: string;
@@ -18,4 +21,17 @@ export interface MaintenanceRecord {
 export interface DashboardData {
   vehicle: Vehicle;
   records: MaintenanceRecord[];
+}
+
+export interface GoogleDriveFile {
+  id: string;
+  name: string;
+  modifiedTime?: string;
+}
+
+export interface AuthUser {
+  id?: string;
+  name?: string;
+  email?: string;
+  picture?: string;
 }
