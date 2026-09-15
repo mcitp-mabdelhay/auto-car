@@ -7,6 +7,7 @@ import {
   ActivityIndicator,
   SafeAreaView,
   Alert,
+  Image,
 } from 'react-native';
 import { useApp } from '../context/AppContext';
 import { Car, Globe, Sun, Moon, AlertCircle, LogIn } from 'lucide-react-native';
@@ -55,7 +56,11 @@ export const AuthScreen: React.FC = () => {
         <View style={[styles.card, isDark && styles.darkCard]}>
           {/* Logo Icon */}
           <View style={styles.logoBox}>
-            <Car color="#059669" size={36} />
+            <Image
+              source={require('../../assets/icon.png')}
+              style={styles.logoImage}
+              resizeMode="contain"
+            />
           </View>
 
           {/* Title & Desc */}
@@ -160,12 +165,22 @@ const styles = StyleSheet.create({
     borderColor: '#1e293b',
   },
   logoBox: {
-    width: 68,
-    height: 68,
-    borderRadius: 20,
-    backgroundColor: '#ecfdf5',
+    width: 72,
+    height: 72,
+    borderRadius: 22,
     alignItems: 'center',
     justifyContent: 'center',
+    overflow: 'hidden',
+    shadowColor: '#059669',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.25,
+    shadowRadius: 10,
+    elevation: 5,
+  },
+  logoImage: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 22,
   },
   title: {
     fontSize: 20,

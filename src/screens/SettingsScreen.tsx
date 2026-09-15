@@ -186,6 +186,13 @@ export const SettingsScreen: React.FC = () => {
             <LogOut color="#64748b" size={18} />
             <Text style={[styles.signOutText, isDark && styles.darkSubtext]}>{strings.signOut}</Text>
           </TouchableOpacity>
+
+          {/* App Version Footer */}
+          <View style={styles.versionFooter}>
+            <Text style={[styles.versionText, isDark && styles.darkSubtext]}>
+              AutoTracker v1.1.0
+            </Text>
+          </View>
         </View>
       </ScrollView>
 
@@ -359,5 +366,16 @@ const styles = StyleSheet.create({
   },
   darkSubtext: {
     color: '#94a3b8',
+  },
+  versionFooter: {
+    alignItems: 'center',
+    paddingVertical: 14,
+    marginTop: 8,
+  },
+  versionText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#94a3b8',
+    letterSpacing: 0.5,
   },
 });

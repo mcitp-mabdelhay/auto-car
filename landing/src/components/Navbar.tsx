@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Car, Globe, Moon, Sun, Menu, X, Download } from 'lucide-react';
+import { Globe, Moon, Sun, Menu, X, Download } from 'lucide-react';
 import type { Language, TranslationContent } from '../translations';
 
 interface NavbarProps {
@@ -33,14 +33,16 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="w-11 h-11 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-white shadow-lg shadow-emerald-500/25 group-hover:scale-105 transition-transform duration-300">
-              <Car className="w-6 h-6 stroke-[2.2]" />
-            </div>
+            <img
+              src="/icon.png"
+              alt="AutoTracker Logo"
+              className="w-11 h-11 rounded-2xl shadow-lg shadow-emerald-500/25 group-hover:scale-105 transition-transform duration-300 object-cover"
+            />
             <div className="flex flex-col">
               <span className="font-extrabold text-xl tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5">
                 AutoTracker
                 <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-400">
-                  v1.0
+                  v1.1.0
                 </span>
               </span>
               <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">

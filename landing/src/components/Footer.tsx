@@ -1,5 +1,5 @@
 import React from 'react';
-import { Car, Heart, Shield, FileText } from 'lucide-react';
+import { Heart, Shield, FileText } from 'lucide-react';
 import type { Language, TranslationContent } from '../translations';
 import { StoreBadges } from './StoreBadges';
 
@@ -69,9 +69,11 @@ export const Footer: React.FC<FooterProps> = ({ lang, onToggleLang, t }) => {
           {/* Col 1: Brand */}
           <div className="space-y-4 md:col-span-2">
             <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 flex items-center justify-center text-white">
-                <Car className="w-5 h-5" />
-              </div>
+              <img
+                src="/icon.png"
+                alt="AutoTracker Logo"
+                className="w-9 h-9 rounded-xl shadow-md shadow-emerald-500/20 object-cover"
+              />
               <span className="font-extrabold text-xl tracking-tight text-white">
                 AutoTracker
               </span>
