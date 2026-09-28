@@ -12,9 +12,3 @@
 -keep class com.facebook.react.turbomodule.** { *; }
 
 # Add any project specific keep options here:
--keep class com.facebook.react.** { *; }
--keep class com.th3rdwave.safeareacontext.** { *; }
--keep class com.reactnativecommunity.asyncstorage.** { *; }
--keepattributes *Annotation*,InnerClasses,Signature
--dontwarn okio.**
--dontwarn javax.annotation.**
