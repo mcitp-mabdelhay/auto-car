@@ -86,13 +86,13 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.autotracker.app'
+    namespace 'com.mabdelhay.autotracker'
     defaultConfig {
-        applicationId 'com.autotracker.app'
+        applicationId 'com.mabdelhay.autotracker'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 2
-        versionName "1.1.0"
+        versionCode 3
+        versionName "1.2.1"
     }
     signingConfigs {
         debug {

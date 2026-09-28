@@ -1,4 +1,4 @@
-package com.autotracker.app
+package com.mabdelhay.autotracker
 
 import android.os.Build
 import android.os.Bundle

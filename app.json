@@ -3,7 +3,7 @@
     "name": "AutoTracker",
     "slug": "autotracker",
     "scheme": "com.googleusercontent.apps.867501694584-oe8lrngvfils3a2mbsi130btl1u0qkt9",
-    "version": "1.1.0",
+    "version": "1.2.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -15,15 +15,15 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.autotracker.app"
+      "bundleIdentifier": "com.mabdelhay.autotracker"
     },
     "android": {
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#059669"
       },
-      "package": "com.autotracker.app",
+      "package": "com.mabdelhay.autotracker",
       "permissions": []
     },
     "web": {

@@ -9,7 +9,7 @@ interface StoreBadgesProps {
 
 // Configurable store links for future deployment
 export const STORE_URLS = {
-  googlePlay: '#', // Set to official URL when published: e.g. https://play.google.com/store/apps/details?id=com.autotracker.app
+  googlePlay: '#', // Set to official URL when published: e.g. https://play.google.com/store/apps/details?id=com.mabdelhay.autotracker
   appStore: '#',   // Set to official URL when published: e.g. https://apps.apple.com/app/autotracker/id123456789
   appGallery: '#', // Set to official URL when published: e.g. https://appgallery.huawei.com/app/C123456789
   apkDirect: 'https://github.com/mcitp-mabdelhay/auto-car/releases/latest',
@@ -171,7 +171,7 @@ export const StoreBadges: React.FC<StoreBadgesProps> = ({ t, variant = 'section'
           </div>
 
           <div className="mt-4 pt-3 border-t border-emerald-400/30 flex items-center justify-between text-[11px]">
-            <span className="text-emerald-100 font-medium">v1.1.0</span>
+            <span className="text-emerald-100 font-medium">v1.2.1</span>
             <span className="inline-flex items-center gap-1.5 font-bold text-white px-2.5 py-0.5 rounded-full bg-white/20 border border-white/30">
               <ArrowDownToLine className="w-3 h-3" />
               {t.stores.availableNow}

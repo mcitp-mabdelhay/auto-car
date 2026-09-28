@@ -42,7 +42,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="font-extrabold text-xl tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5">
                 AutoTracker
                 <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-400">
-                  v1.1.0
+                  v1.2.1
                 </span>
               </span>
               <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">

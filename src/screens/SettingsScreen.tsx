@@ -190,7 +190,7 @@ export const SettingsScreen: React.FC = () => {
           {/* App Version Footer */}
           <View style={styles.versionFooter}>
             <Text style={[styles.versionText, isDark && styles.darkSubtext]}>
-              AutoTracker v1.1.0
+              AutoTracker v1.2.1
             </Text>
           </View>
         </View>
