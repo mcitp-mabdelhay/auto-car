@@ -24,9 +24,7 @@
         "backgroundColor": "#059669"
       },
       "package": "com.autotracker.app",
-      "permissions": [
-        "android.permission.RECORD_AUDIO"
-      ]
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
