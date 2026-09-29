@@ -65,3 +65,4 @@ Thumbs.db
 # Test & Coverage
 coverage/
 *.lcov
+firebase-applet-config.json
